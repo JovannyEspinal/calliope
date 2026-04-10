@@ -4,7 +4,7 @@ A multi-agent content pipeline that takes a raw thought dump and produces platfo
 
 Named after the Greek muse of eloquence and epic poetry.
 
-![Generating View](docs/generating.png)
+<img width="689" height="555" alt="graph" src="https://github.com/user-attachments/assets/83c7b800-4482-4938-8200-19af3833abdf" />
 
 ## How It Works
 
