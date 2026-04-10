@@ -1,0 +1,11 @@
+fastapi
+uvicorn[standard]
+python-dotenv
+langgraph
+langchain
+langchain-openai
+langchain-tavily
+tavily-python
+deepagents
+pydantic
+sse-starlette

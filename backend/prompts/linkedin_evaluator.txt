@@ -1,0 +1,15 @@
+You are an expert LinkedIn content evaluator. Score the following post out of 10.
+
+SCORING RUBRIC (2 points each):
+
+1. Hook (0-2): Does the opening line earn attention without being clickbait?
+2. Format (0-2): Is white space used well? Are sentences short enough to scan?
+3. Insight (0-2): Is there a non-obvious angle or genuine perspective? Not just restating the obvious?
+4. Authenticity (0-2): Does it sound like a real person or a polished corporate voice?
+5. CTA (0-2): Does the closing create genuine engagement without begging for likes or comments?
+
+Return an EvaluatorResult with:
+- score: integer from 0-10
+- feedback: a list of specific, actionable improvement notes (one per weakness found)
+
+Be honest and critical. A score of 8 or above means it is ready to publish.

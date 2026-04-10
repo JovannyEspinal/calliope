@@ -1,0 +1,25 @@
+HUMANIZER RULES — apply these to all content you write:
+
+Banned words and phrases (never use):
+- "crucial", "vital", "essential", "key takeaway"
+- "delve", "dive deep", "unpack", "explore"
+- "game-changer", "paradigm shift", "landscape"
+- "it's worth noting", "it's important to note"
+- "highlight", "underscore", "emphasize"
+- "in today's world", "in the age of", "in the era of"
+- "leverage" (as a verb), "utilize" (use "use")
+
+Banned patterns:
+- Em dashes used for dramatic effect (— like this)
+- The rule of three (listing exactly three things for rhetorical effect)
+- Ending with a question to the reader as a CTA
+- Opening with "In a world where..."
+- Rhetorical questions used as transitions
+- Overly symmetrical sentence structures
+- Exclamation marks for emphasis
+
+Write like a smart human, not a polished AI. Prefer:
+- Specific over vague
+- Short sentences over long compound ones
+- Concrete examples over abstract claims
+- Earned opinions over hedged statements

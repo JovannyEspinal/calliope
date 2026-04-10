@@ -1,0 +1,19 @@
+models:
+  extraction: "gpt-4o-mini"
+  research: "gpt-4o-mini"
+  writer: "gpt-4o-mini"
+  evaluator: "gpt-4o-mini"
+
+temperatures:
+  extraction: 0.0
+  research: 0.4
+  writer: 0.7
+  evaluator: 0.1
+
+thresholds:
+  score: 8
+  max_iterations: 5
+
+research:
+  max_results: 3
+  search_depth: "basic"

@@ -1,0 +1,101 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+/* Light mode tokens (default) */
+:root {
+  --bg: #f6f6f8;
+  --text-main: #1a1a1a;
+  --text-muted: #9a9a9a;
+  --surface: rgba(0, 0, 0, 0.03);
+  --surface-hover: rgba(0, 0, 0, 0.06);
+  --border-glass: rgba(0, 0, 0, 0.09);
+  --border-subtle: rgba(0, 0, 0, 0.06);
+  --toolbar-bg: rgba(246, 246, 248, 0.8);
+  --scrollbar: rgba(0, 0, 0, 0.1);
+  --scrollbar-hover: rgba(0, 0, 0, 0.2);
+  --glow-color: rgba(0, 0, 0, 0.015);
+  --toggle-bg: rgba(0, 0, 0, 0.05);
+  --toggle-border: rgba(0, 0, 0, 0.08);
+  --skeleton: rgba(0, 0, 0, 0.05);
+  --skeleton-shine: rgba(0, 0, 0, 0.09);
+}
+
+/* Dark mode tokens */
+.dark {
+  --bg: #161616;
+  --text-main: #EDEDED;
+  --text-muted: #8A8A8A;
+  --surface: rgba(255, 255, 255, 0.03);
+  --surface-hover: rgba(255, 255, 255, 0.06);
+  --border-glass: rgba(255, 255, 255, 0.08);
+  --border-subtle: rgba(255, 255, 255, 0.05);
+  --toolbar-bg: rgba(255, 255, 255, 0.03);
+  --scrollbar: rgba(255, 255, 255, 0.1);
+  --scrollbar-hover: rgba(255, 255, 255, 0.2);
+  --glow-color: rgba(255, 255, 255, 0.02);
+  --toggle-bg: rgba(255, 255, 255, 0.05);
+  --toggle-border: rgba(255, 255, 255, 0.08);
+  --skeleton: rgba(255, 255, 255, 0.05);
+  --skeleton-shine: rgba(255, 255, 255, 0.1);
+}
+
+/* Map tokens to Tailwind utilities */
+@theme inline {
+  --color-primary: #2b6cee;
+  --color-text-main: var(--text-main);
+  --color-text-muted: var(--text-muted);
+  --color-border-glass: var(--border-glass);
+  --radius-md: 12px;
+  --radius-lg: 24px;
+  --shadow-subtle: 0 4px 24px -2px rgba(0, 0, 0, 0.15);
+}
+
+@keyframes shimmer {
+  0%   { background-position: -400px 0; }
+  100% { background-position: 400px 0; }
+}
+
+.skeleton {
+  background: linear-gradient(
+    90deg,
+    var(--skeleton) 25%,
+    var(--skeleton-shine) 50%,
+    var(--skeleton) 75%
+  );
+  background-size: 800px 100%;
+  animation: shimmer 1.6s ease-in-out infinite;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.glass-scrollbar::-webkit-scrollbar { width: 6px; }
+.glass-scrollbar::-webkit-scrollbar-track { background: transparent; }
+.glass-scrollbar::-webkit-scrollbar-thumb {
+  background-color: var(--scrollbar);
+  border-radius: 20px;
+}
+.glass-scrollbar::-webkit-scrollbar-thumb:hover {
+  background-color: var(--scrollbar-hover);
+}
+
+.mask-fade-bottom {
+  mask-image: linear-gradient(to bottom, black 40%, transparent 100%);
+  -webkit-mask-image: linear-gradient(to bottom, black 40%, transparent 100%);
+}
+
+textarea::-webkit-scrollbar { width: 8px; }
+textarea::-webkit-scrollbar-track { background: transparent; }
+textarea::-webkit-scrollbar-thumb {
+  background-color: var(--scrollbar);
+  border-radius: 4px;
+}
+textarea::-webkit-scrollbar-thumb:hover {
+  background-color: var(--scrollbar-hover);
+}
