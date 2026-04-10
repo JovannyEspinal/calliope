@@ -18,7 +18,7 @@ You paste a raw idea. The system:
 
 No templates. The writers and evaluators operate from prompts — opinionated, platform-specific system prompts with humanizer rules to strip AI patterns.
 
-<img width=60% height=60% alt="image" src="https://github.com/user-attachments/assets/72f1c02b-8d48-48cf-94d2-89ed2ec4cee7" />
+<img width=80% height=80% alt="image" src="https://github.com/user-attachments/assets/72f1c02b-8d48-48cf-94d2-89ed2ec4cee7" />
 
 ## Architecture
 
